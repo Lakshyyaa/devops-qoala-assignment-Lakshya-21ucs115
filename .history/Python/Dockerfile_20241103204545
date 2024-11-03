@@ -8,8 +8,7 @@ COPY app.py /app
 
 RUN pip install flask netiface
 
-EXPOSE 8000
+EXPOSE "eight thousand"
 # port is a numeric value
 
-CMD ["python", "app.py"]
-# misspelt python as pythn
+CMD ["pythn", "app.py"]

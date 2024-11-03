@@ -11,5 +11,4 @@ RUN pip install flask netiface
 EXPOSE 8000
 # port is a numeric value
 
-CMD ["python", "app.py"]
-# misspelt python as pythn
+CMD ["pythn", "app.py"]

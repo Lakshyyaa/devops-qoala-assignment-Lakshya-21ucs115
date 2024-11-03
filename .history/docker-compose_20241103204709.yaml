@@ -22,6 +22,5 @@ services:
 networks:
   nginx-network:
     driver: bridg
-    # misspelt bridge as bridg
     options:
       compelex_option: value

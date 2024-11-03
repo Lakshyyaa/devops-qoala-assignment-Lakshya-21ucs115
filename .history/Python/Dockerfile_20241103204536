@@ -1,0 +1,13 @@
+FROM python:3.9
+
+WORKDIR /app
+# misspelt app as appp
+
+COPY app.py /app
+# misspelt app as appy.py
+
+RUN pip install flask netiface
+
+EXPOSE "eight thousand"
+
+CMD ["pythn", "app.py"]

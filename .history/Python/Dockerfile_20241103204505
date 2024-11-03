@@ -1,15 +1,15 @@
 FROM python:3.9
 
 WORKDIR /app
-# misspelt app as appp
+# misspelt python as pythn
 
-COPY app.py /app
-# misspelt app.py as appy.py
+COPY apy.py /app
 
 RUN pip install flask netiface
 
 EXPOSE 8000
+# EXPOSE "eight thousand"
 # port is a numeric value
-
-CMD ["python", "app.py"]
+CMD [ "python", "app.py" ]
+# CMD ["python", "app.py"]
 # misspelt python as pythn
